@@ -7,9 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>A simple program that prints my name to the console</h1>
+    <h1>A simple program that prints my name (<span id='span'></span>)  to the console</h1>
 </body>
 <script>
+    const span = document.getElementById('span')
+    span.innerHTML = `Odumosu Temiloluwa Oluwafemi`
     console.log('Odumosu Temiloluwa Oluwafemi');
 </script>
 </html>
